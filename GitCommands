@@ -1,0 +1,18 @@
+CLI
+
+git init 
+git add .
+git status	
+git commit -m 'm test'
+
+git remote add origin https://github.com/lamrin2019/TestGitCL.git
+git remote -v (to view the current remote url)
+
+git remote set-url origin https://github.com/lamrin2019/TestGitCommand.git           (to change the repository URL)
+git remote -v
+
+git pull origin master (to pull from the origin)
+git push origin master
+
+git push origin master ( optional with force push)
+
